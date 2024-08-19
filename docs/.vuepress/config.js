@@ -1,18 +1,18 @@
-import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress/cli'
-import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from "@vuepress/theme-default";
+import { defineUserConfig } from "vuepress/cli";
+import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: "zh-CN",
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: "知识库",
+  description: ".NET开发人员技能知识库",
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: "https://vuejs.press/images/hero.png",
 
-    navbar: ['/', '/get-started'],
+    navbar: ["/", "/get-started"],
   }),
 
   bundler: viteBundler(),
-})
+});
