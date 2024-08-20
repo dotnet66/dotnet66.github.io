@@ -5,8 +5,8 @@ import { viteBundler } from "@vuepress/bundler-vite";
 export default defineUserConfig({
   lang: "zh-CN",
 
-  title: "知识库",
-  description: ".NET开发人员技能知识库",
+  title: "ASP.NET知识库",
+  description: "ASP.NET开发人员必备技能知识库",
 
   theme: defaultTheme({
     logo: "https://vuejs.press/images/hero.png",
